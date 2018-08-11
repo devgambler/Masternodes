@@ -1,7 +1,7 @@
 CONFIG_FILE="U-BETcoin.conf"
 UBET_DAEMON="/usr/local/bin/U-BETd"
 UBET_REPO="https://github.com/U-BETcoinmn/U-BET-1.0.1"
-DEFAULTUBETPORT=20189
+DEFAULTUBETPORT=20190
 DEFAULTUBETUSER="U-BET"
 DEFAULTUBETFOLDER="$HOME/.U-BETcoin"
 NODEIP=$(curl -s4 icanhazip.com)
@@ -108,7 +108,7 @@ U-BETd -daemon -reindex
 clear
 echo -e "${GREEN}Congrats! Your U-BET Masternode has been successfully installed!"
 echo -e " Please go to your local U-BET wallet folder and add the required data string into the 'masternode.conf' file as per the following pattern:"
-echo -e "${YELLOW}MN1 Masternode_Public_IP:20189 Masternode_Private_Key Transaction_ID Transaction_Index"
+echo -e "${YELLOW}MN1 Masternode_Public_IP:20190 Masternode_Private_Key Transaction_ID Transaction_Index"
 echo -e "${NC}Your U-BET Masternode (MN) Public IP Address and the Port are: ${GREEN}$myip:$DEFAULTUBETPORT"
 echo -e "${NC} Your U-BET Masternode (MN) Private Key is: ${GREEN}$PRIV_KEY"
 echo -e "Your U-BET Masternode (MN) Config file is:" 
