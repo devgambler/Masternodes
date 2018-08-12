@@ -1,7 +1,7 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE="U-BETcoin.conf"
 UBET_DAEMON="/usr/local/bin/U-BETd"
-UBET_REPO="https://github.com/U-BETcoinmn/U-BET-1.0.1"
+UBET_REPO="https://github.com/ubet-coin-official/Wallets"
 DEFAULTUBETPORT=20190
 DEFAULTUBETUSER="U-BET"
 DEFAULTUBETFOLDER="$HOME/.U-BETcoin"
@@ -47,7 +47,7 @@ apt-get install pwgen
 apt-get install bc
 
     echo -e "Download the debian package from U-BET git.."
-    wget https://github.com/KiPa-SuJi/U-BET-Core/releases/download/U-BET_1.0.0.1/U-BET-setup_1.0-1.deb
+    wget https://github.com/ubet-coin-official/Wallets/releases/download/U-BET-1.0.0.1/U-BET-setup_1.0-1.deb
     sleep 2
     dpkg --install U-BET-setup_1.0-1.deb
     sleep 1

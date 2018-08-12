@@ -1,6 +1,6 @@
 CONFIG_FILE="U-BETcoin.conf"
 UBET_DAEMON="/usr/local/bin/U-BETd"
-UBET_REPO="https://github.com/U-BETcoinmn/U-BET-1.0.1"
+UBET_REPO="https://github.com/ubet-coin-official/Wallets"
 DEFAULTUBETPORT=20190
 DEFAULTUBETUSER="U-BET"
 DEFAULTUBETFOLDER="$HOME/.U-BETcoin"
@@ -21,7 +21,7 @@ echo -e "${NC}"
 sudo apt -y update && sudo apt -y install build-essential libssl-dev libdb++-dev && sudo apt -y install libboost-all-dev libcrypto++-dev libqrencode-dev && sudo apt -y install libminiupnpc-dev libgmp-dev libgmp3-dev autoconf && sudo apt -y install autogen automake libtool autotools-dev pkg-config && sudo apt -y install bsdmainutils software-properties-common && sudo apt -y install libzmq3-dev libminiupnpc-dev libssl-dev libevent-dev && sudo add-apt-repository ppa:bitcoin/bitcoin -y && sudo apt-get update && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y && apt install -y pwgen
 
 echo -e "Download the debian package from U-BET git.."
-  wget https://github.com/KiPa-SuJi/U-BET-Core/releases/download/U-BET_1.0.0.1/U-BET-setup_1.0-1.deb
+  wget https://github.com/ubet-coin-official/Wallets/releases/download/U-BET-1.0.0.1/U-BET-setup_1.0-1.deb
   sleep 3
   dpkg --install U-BET-setup_1.0-1.deb
   sleep 2
