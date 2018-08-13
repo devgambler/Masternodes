@@ -112,6 +112,6 @@ echo -e "${YELLOW}MN1 Masternode_Public_IP:20190 Masternode_Private_Key Transact
 echo -e "${NC}Your U-BET Masternode (MN) Public IP Address and the Port are: ${GREEN}$myip:$DEFAULTUBETPORT"
 echo -e "${NC} Your U-BET Masternode (MN) Private Key is: ${GREEN}$PRIV_KEY"
 echo -e "Your U-BET Masternode (MN) Config file is:" 
-echo -e "${GREEN}MN1 $myip:$DEFAULTUBETPORT$ $PRIV_KEY${NC}"
+echo -e "${GREEN}MN1 $myip:$DEFAULTUBETPORT $PRIV_KEY${NC}"
 echo -e "You must add Masternode_Private_Key Transaction_ID Transaction_Index"
 echo -e " ${GREEN}Right after you need to save the 'masternode.conf' file. Then you need to wait for at least 15 confirmations for the 2,500 U-BET coins collateral transaction and then restart the wallet (completely close and then run your wallet again). Then go to the 'Masternode' tab in the wallet and start your U-BET masternode.${NC} "
