@@ -101,9 +101,9 @@ WantedBy=default.target
 EOF
 sudo systemctl enable U-BET@root.service
 sudo systemctl start U-BET@root.service
-sleep 2
+sleep 5
 U-BET-cli stop
-sleep 2
+sleep 5
 U-BETd -daemon -reindex
 clear
 echo -e "${GREEN}Congrats! Your U-BET Masternode has been successfully installed!"
