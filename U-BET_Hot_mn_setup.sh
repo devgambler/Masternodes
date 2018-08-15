@@ -152,11 +152,9 @@ daemon=1
 txindex=1
 #----
 masternode=1
-#masternodeprivkey=$PRIV_KEY
-#masternodeaddr=$myip:$DEFAULTUBETPORT
 
-addnode=183.182.105.91
-addnode=183.182.104.121
+addnode=66.42.58.116
+addnode=66.42.63.73
 addnode=45.76.37.150
 addnode=45.76.85.141
 
